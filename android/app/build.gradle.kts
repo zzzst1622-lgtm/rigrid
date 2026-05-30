@@ -27,6 +27,14 @@ android {
         versionName = flutter.versionName
         multiDexEnabled = true
     }
+
+    buildTypes {
+        release {
+            // Direct-install build for testing. Replace this with a private
+            // release keystore before publishing to an app store.
+            signingConfig = signingConfigs.getByName("debug")
+        }
+    }
 }
 
 flutter {
