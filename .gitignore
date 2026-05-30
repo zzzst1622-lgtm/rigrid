@@ -1,0 +1,11 @@
+.DS_Store
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+.idea/
+*.iml
+ios/Flutter/.last_build_id
+android/.gradle/
+android/local.properties
